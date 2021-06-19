@@ -7,6 +7,25 @@
   pointer-events: none;
 }
 
+.container-pernyataan {
+  min-height: 100vh;
+  display:flex;
+  /* background-color: #61dafb; */
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 20px;
+}
+.container-field{
+  /* background-color: aliceblue; */
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;flex-direction: column;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
